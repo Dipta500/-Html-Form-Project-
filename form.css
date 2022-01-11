@@ -1,0 +1,137 @@
+
+/* Validation and invalidation Styles */
+
+input:focus, select:focus, textarea:focus 
+{ 
+ background-color: rgb(250,128,114); 
+}
+
+input#username:focus:valid,
+input#password:focus:valid,
+input#name:focus:valid, 
+input#zip:focus:valid, 
+input#phone:focus:valid, 
+input#mail:focus:valid { 
+background: lightblue; 
+}
+
+input#username:focus:invalid,
+input#password:focus:invalid,
+input#name:focus:invalid, 
+input#zip:focus:invalid, 
+input#phone:focus:invalid, 
+input#mail:focus:invalid { 
+background: lightseagreen; 
+}
+
+
+
+
+
+
+head{
+ 	background-color: rgb(255,0,0);
+    margin:10px;
+ 	padding:10px;
+
+}
+
+header
+ {
+ 	background-color:purple;
+     	 	
+ }
+
+section
+{
+    background-color: lightgray;
+}
+
+div.formRow 
+{
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	margin: 10px 0px;
+}
+
+div.formRow > * {
+	-webkit-flex: 1 1 150px;
+	flex: 1 1 150px;
+}
+
+form#survey
+{
+	background-color: lightgrey ;
+}
+
+body
+{
+    
+    background-color: yellow ;
+    
+}
+form#survey > fieldset { 
+ background-color: lightcyan ; 
+ border-radius: 20px; 
+ -webkit-flex: 1 1 300px; 
+ flex: 1 1 300px; 
+ font-size: 1.55em; 
+ padding: 9px; 
+ margin: 9px; 
+}
+
+div.formRow { 
+ display: -webkit-flex; 
+ display: flex; 
+ -webkit-flex-flow: row wrap; 
+ flex-flow: row wrap; 
+ margin: 7px 0px; 
+}
+
+div.formRow > * { 
+ -webkit-flex: 1 1 150px; 
+ flex: 1 1 150px; 
+}
+
+/* Legend Styles */
+
+legend { 
+ background-color: black ;
+ color: white; 
+ padding: 10px; 
+ text-align: center;
+}
+
+
+
+/* Text Area Styles */
+
+textarea { 
+ margin-top: 15px; 
+ height: 100px; 
+ width: 100%; 
+}
+
+/* Spinner Styles */
+
+div.formRow > input#dineSpin { 
+ -webkit-flex: 0 0 50px; 
+ flex: 0 0 50px; 
+}
+
+/* Form Button Styles */
+
+ div#buttons { 
+ text-align: center; 
+ width: 100%; 
+}
+
+
+ input[type='submit'], input[type='reset'], input[type='file'] { 
+ font-size: 1.4em; 
+ padding: 5px; 
+ margin: 15px; 
+}
+
